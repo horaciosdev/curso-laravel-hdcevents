@@ -11,9 +11,15 @@
                 <label for="image">Imagem do Evento:</label>
                 <input type="file" id="image" name="image" class="form-controle-file">
             </div>
+
             <div class="form-group">
                 <label for="title">Evento:</label>
                 <input type="text" class="form-control" id="title" name="title" placeholder="Nome do evento">
+            </div>
+
+            <div class="form-group">
+                <label for="date">Data do Evento:</label>
+                <input type="date" class="form-control" id="date" name="date">
             </div>
 
             <div class="form-group">

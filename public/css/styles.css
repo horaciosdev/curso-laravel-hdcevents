@@ -145,21 +145,6 @@ header {
     font-size: 14px;
 }
 
-/* footer */
-footer {
-    text-align: center;
-    background-color: #353e48;
-    color: #fff;
-    padding: 30px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin-bottom: 0;
-}
-
 /* Event page */
 #image-container,
 #info-container {
@@ -187,6 +172,10 @@ footer p {
     font-weight: bold;
 }
 
+#description-container {
+    margin-top: 30px;
+}
+
 #info-container ion-icon {
     font-size: 20px;
     color: #f2a340;
@@ -204,4 +193,28 @@ footer p {
 
 #items-list li {
     display: flex;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.dashboard-events-container th {
+    width: 25%;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
 }
